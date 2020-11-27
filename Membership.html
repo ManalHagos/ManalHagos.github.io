@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment4</title>
+    <link rel="stylesheet" type="text/css" href="Membership.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-register">
+            <h1>Member Registration</h1>
+            <h2>Please complete all the fields below:</h2>
+            <form method="post">
+                <div class="row">
+                    <div>
+                        <div class="field-name">
+                            <label for="first-name" class="title">First Name:</label>
+                        </div>
+                        <div class="field">
+                            <input id="first-name" class="form-control-input" name="first-name" type="text" placeholder="Your first name...">
+                        </div>
+                    </div>
+                    <span id="first-name-error" class="error"></span>
+                </div>
+                <div class="row">
+                    <div>
+                        <div class="field-name">
+                            <label for="last-name" class="title">Last Name:</label>
+                        </div>
+                        <div class="field">
+                            <input id="last-name" class="form-control-input" name="last-name" type="text" placeholder="Your last name...">
+                        </div>
+                    </div>
+                    <span id="last-name-error" class="error"></span>
+                </div>
+                <div class="row">
+                    <div>
+                        <div class="field-name">
+                            <label for="address" class="title">Address:</label>
+                        </div>
+                        <div class="field">
+                            <input id="address" class="form-control-input" name="address" type="text">
+                        </div>
+                    </div>
+                    <span id="address-error" class="error"></span>
+                </div>
+                <div class="row">
+                    <div>
+                        <div class="field-name">
+                            <label for="city" class="title">City:</label>
+                        </div>
+                        <div class="field">
+                            <input id="city" class="form-control-input" name="city" type="text">
+                        </div>
+                    </div>
+                    <span id="city-error" class="error"></span>
+                </div>
+                <div class="row">
+                    <div>
+                        <div class="field-name">
+                            <label for="postal-code" class="title">Postal Code:</label>
+                        </div>
+                        <div class="field">
+                            <input id="postal-code" class="form-control-input" name="postal-code" type="text" placeholder="A0A0A0">
+                        </div>
+                    </div>
+                    <span id="postal-code-error" class="error"></span>
+                </div>
+                <div class="row">
+                    <div>
+                        <div class="field-name">
+                            <label for="province" class="title">Province:</label>
+                        </div>
+                        <div class="field">
+                            <input id="province" class="form-control-input" name="province" type="text">
+                        </div>
+                    </div>
+                    <span id="province-error" class="error"></span>
+                </div>
+                <div class="row">
+                    <div>
+                        <div class="field-name">
+                            <label for="age" class="title">Age:</label>
+                        </div>
+                        <div class="field">
+                            <input id="age" class="form-control-input" name="age" type="number">
+                        </div>
+                    </div>
+                    <span id="age-error" class="error"></span>
+                </div>
+                <div class="row">
+                    <div>
+                        <div class="field-name">
+                            <label for="password" class="title">Password:</label>
+                        </div>
+                        <div class="field">
+                            <input id="password" class="form-control-input" name="password" type="password">
+                        </div>
+                    </div>
+                    <span id="password-error" class="error"></span>
+                </div>
+                <div class="row">
+                    <div>
+                        <div class="field-name">
+                            <label for="confirm" class="title">Confirm:</label>
+                        </div>
+                        <div class="field">
+                            <input id="confirm" class="form-control-input" name="confirm" type="password">
+                        </div>
+                    </div>
+                    <span id="confirm-error" class="error"></span>
+                </div>
+                <div class="row">
+                    <div>
+                        <div class="field-name">
+                            <label for="email" class="title">Email:</label>
+                        </div>
+                        <div class="field">
+                            <input id="email" class="form-control-input" name="email" type="text" placeholder="Email">
+                        </div>
+                    </div>
+                    <span id="email-error" class="error"></span>
+                </div>
+                <div class="row btn-reg">
+                    <input id="register" class="btn" type="button" name="register" value="Register Now"> <input id="clear" class="btn" type="reset" name="clear" value="clear form">
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>© Copyright Manal Hagos - COMP125 - Javascript Assignment 4</footer>
+    <script src="Membership.js"></script>
+</body>
+</html>
