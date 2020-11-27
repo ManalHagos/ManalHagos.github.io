@@ -1,0 +1,106 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url("ladybirds.jpg");
+}
+
+#content {
+    background-color: lightyellow;
+    box-shadow: 5px 10px 5px 10px grey;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 880px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: beige;
+}
+
+#imageDiv {
+    background: url("image/flower.png");
+    height: 500px;
+    width: 800px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#buttonDiv {
+    width: 400px;
+    float: right;
+    text-align: center;
+}
+
+h2 {
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: double;
+    font-size: 30px;
+    color: forestgreen;
+}
+
+#bug {
+    left: 2%;
+    top: 3%;
+    position: relative;
+    transition: all 0.7s ease 0s;
+}
+
+button {
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    width: 150px;
+}
+
+    button:hover {
+        background-color: forestgreen;
+        color: yellow;
+        box-shadow: 2px 3px 2px 3px grey;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+    }
+
+#scoreDiv {
+    font-size: 20px;
+    color: forestgreen;
+}
+
+#score {
+    padding: 10px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 0px;
+    text-align: center;
+    box-shadow: 6px #808000;
+    padding: 5px;
+    font-weight: 500;
+    font-size: medium;
+    font-family: Verdana;
+}
+
+
+#smashed {
+    visibility: hidden;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    top: 250px;
+}
+
+.auto-style1 {
+    color: black;
+}
